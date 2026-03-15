@@ -1,1 +1,11 @@
-const when = [\n  'today',\n  'yesterday',\n  'this morning',\n  'last night',\n  'earlier',\n  'a moment ago',\n  'this afternoon'\n];\n\n// Existing code follows...\n
+const actions = [
+    'was delayed by',
+    'was held up by',
+    'was stopped by',
+    'was interrupted by',
+    'was caught in',
+    'was stuck because of',
+    'was slowed down by'
+];
+
+module.exports = actions;
